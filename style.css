@@ -1,0 +1,193 @@
+
+body {
+
+background:linear-gradient(90deg, hsl(300, 66%, 83%), #ff85de);
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+h1{
+    font-style: oblique;
+    font-family:"Baskervville SC";
+}
+
+p{
+    text-align: justify;
+    font-size: larger;
+    font-style: normal;
+    font-family:"Baskervville SC";
+    font-weight: bold;
+    
+}
+.text{
+
+   
+    font-style: normal;
+    font-family:"Baskervville SC";
+    font-weight: bold;
+}
+
+mark{
+    
+    background-color: #ff85de;
+    color:black;
+}
+h2{
+    text-align: center;
+    margin:150px;
+    font-style: oblique;
+    font-family:"Baskervville SC";
+}
+
+.button1{
+       background-color: rgb(250, 64, 250);
+       padding: 10px 30px;
+       border:none;
+       color:#470436;
+       font-family: "Baskervville SC";
+       font-size:large;
+       cursor: pointer;
+       border-radius: 10px; 
+       animation: slidein 1s ease 2s both;   
+}
+.button1:hover{
+    color: blueviolet;
+    background-color: #ff85de;
+    transition:0.2s;
+}
+.button1:active{
+    background-color:blueviolet;
+    color:palevioletred;
+}
+.div1{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.div2{
+    position: absolute
+    
+}
+.div3{
+    position: absolute ;
+    margin-left: 15%;
+    
+}
+.div4{
+    margin-left: 42%;
+}
+.div5{
+    position:absolute
+}
+.div6{
+    margin-left: 23%
+}
+
+.button2{
+    background-color: purple;
+    padding: 10px 30px;
+    border:none;
+    color:#ff85de;
+    font-family: "baskervville SC";
+    font-size:large;
+    cursor: pointer;
+    border-radius: 10px;  }
+
+.button2{
+    background-color: purple;
+    padding: 10px 30px;
+    border:none;
+    color:#ff85de;
+    font-family: "baskervville SC";
+    font-size:large;
+    cursor: pointer;
+    border-radius: 10px;    
+
+}
+.button2:hover{
+ color: blueviolet;
+ background-color: #ff85de;
+ transition:0.2s;
+  
+}
+.button2:active{
+ background-color:blueviolet;
+ color:palevioletred;
+}
+
+
+
+
+
+
+/*animation */
+
+@keyframes slidein{
+    from{
+    transform: translateX(100px) translateY(50px) ;
+    opacity:0;
+    }
+    to{
+    transform: translateX(0);
+    opacity: 100;
+    }
+}
+@keyframes txtanm{
+from{
+    transform: TranslateX(80px);
+    opacity: 0;
+}
+to{
+    transform: TranslateX(0);
+    opacity:100;
+}
+}
+
+@keyframes txtanm2{
+    from{
+        transform: TranslateY(50px);
+        opacity:0;
+    }
+    to{
+        transform: TranslateY(0);
+        opacity:100;
+    }
+}
+
+ .maintxt{
+    animation: slidein 1s ease 1s both;
+    }
+.text1
+{
+    animation: txtanm 1.5s ease 1.5s both;
+}
+.text2{
+    animation:txtanm2 2s ease 2s both;
+}
+.text3{
+    animation:txtanm2 2.5s ease 2.5s both;
+}
+.text4{
+    animation:txtanm2 3s ease 3s both;
+}
+.div1{
+    animation:txtanm2 3.5s ease 3s both;
+}
+.div2{
+    animation:txtanm2 4s ease 4s both;
+}
+.div3{
+    animation:txtanm2 4.5s ease 4s both;
+}
+.div4{
+    animation:txtanm2 5s ease 5s both;
+}
+.div5{
+    animation:txtanm2 5.5s ease 5.5s both;
+}
+.div6{
+    animation:txtanm2 6s ease 6s both;
+}
